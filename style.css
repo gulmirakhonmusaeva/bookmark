@@ -143,6 +143,10 @@ ul {
         height: 25px;
         margin-right: auto;
     }
+
+    .logo:hover {
+        opacity: 0.5;
+    }
     .logo-img {
         width: inherit;
         height: inherit;
@@ -162,6 +166,10 @@ ul {
     }
     .nav-list-link {
         color: var(--text-color);
+    }
+
+    .nav-list-link:hover {
+        color: var(--nav-btn);
     }
 
     /* HERO-SECTION */
@@ -210,6 +218,7 @@ ul {
       
     }
    
+        /* FOOTER-SECTION */
     .footer {
         height: 88px;
         background-color:var(--text-color);
@@ -222,16 +231,21 @@ ul {
         align-items:center;
 
     }
-    .footer-lofo {
+    .footer-logo {
         width: 129px;
         height: 25px;
         display: flex;
+    }
+
+    .footer-logo:hover {
+        opacity: 0.5;
     }
     .footer-list {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: auto;
+        margin-left: 40px;
     }
     .footer-list-item:not(:last-child) {
         margin-right: 44px;
@@ -245,3 +259,9 @@ ul {
         margin-right: 24px;
         color: #fff;
     }
+
+    .footer-list-link:hover ,
+    .social-link i:hover {
+        color: var(--nav-btn);
+    }
+
