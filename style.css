@@ -217,6 +217,56 @@ ul {
         display: flex;
       
     }
+
+        /* CONTACT-SECTION */
+        .contact {
+            margin-top: 150px;
+            background-color:var(--btn-bg);
+        }
+        
+        .contact-section {
+            padding-top: 58px;
+            padding-bottom: 78px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .number,.contact-info {
+            font-size: 13px;
+            line-height: 48px;
+            letter-spacing: 5px;
+            color: #fff;
+            margin-bottom: 24px;
+        }
+
+        .contact-text {
+            width: 408px;
+            margin: 0;
+            margin-bottom: 35px;
+            font-weight: 500;
+            text-align: center;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: -0.1px;
+            color:#fff;
+        }
+
+        .input-email{
+            width: 300px;
+            border:2px solid #fff;
+            color: rgba(36, 42, 69, 0.250109);
+        }
+
+        .input-email, .contact-button {
+            padding: 10px 20px;
+            border-radius:4px;
+            font-size: 14px;
+            line-height: 28px;
+            letter-spacing: 0.25px;
+           
+        }
    
         /* FOOTER-SECTION */
     .footer {
