@@ -255,6 +255,7 @@ ul {
             width: 300px;
             border:2px solid #fff;
             color: rgba(36, 42, 69, 0.250109);
+            margin-right: 16px;
         }
 
         .input-email, .contact-button {
@@ -378,10 +379,9 @@ ul {
         100%{opacity: 1}
     }
       /* EXTENSIONS-SECTION */
-      .extension {
-          padding-bottom: 149px;
-        
-    }
+      /* .extension {
+ 
+    } */
     
     .extension-head {
         margin: 0;
