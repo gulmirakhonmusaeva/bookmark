@@ -208,9 +208,7 @@ ul {
         opacity: 50%;
     }
     
-    .hero-img {
-      /* position: relative; */
-    }
+   
     .hero-laptop-img {
         width: 574px;
         height: 385px;
@@ -267,6 +265,198 @@ ul {
             letter-spacing: 0.25px;
            
         }
+
+        /* FEATURES-SECTION */
+
+        .features {
+            padding-top: 80px;
+            padding-bottom: 149px;
+            background-image: url('/img/bg-img.svg') ;
+            background-repeat: no-repeat;
+            background-position: -11px 539px;
+        }
+        .fauters-title {
+            margin: 0;
+            margin-bottom: 16px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 52px;
+        }
+        .fatures-text {
+            width: 540px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 72px;
+            text-align: center;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 28px;
+            color:var(--text-color);
+            opacity: 0.5;
+        }
+        .tabheader-items {
+            width: 730px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 155px;
+            text-align: center;
+            display: flex;
+            justify-content:center;
+           
+        }
+        .tabheader-item {
+            padding: 29px;
+            border-bottom: 3px solid #f2f2f2;
+            font-size: 16px;
+            line-height: 17px;
+            opacity: 0.5;
+            color:var(--text-color);
+            cursor:pointer;
+        }
+        .tabheader-item-active {
+            opacity: 1;
+            border-bottom:2px solid var(--nav-btn);
+        }
+        /* .tabcontainer {
+         
+        } */
+        .tabcontent {
+            display: flex;
+            position: relative;
+            /* justify-content: space-between; */
+          
+        }
+        .tabcontent-img {
+            position: relative;
+            top: -100px;
+            left: 50px;
+            width: 536px;
+            height: 346px;
+            display: flex;
+        }
+        .tabcontent-text {
+            width: 455px;
+            position: absolute;
+            right: -20px;
+            top: -20px;
+        }
+        .tabcontent-title {
+            margin: 0;
+            margin-bottom: 16px;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 52px;
+        }
+        .tabcontent-info {
+            margin: 0;
+            margin-bottom: 32px;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 28px;
+            opacity: 0.5;
+        }
+        .tabcontent-button {
+            padding: 10px 24px;
+        }
+
+        /* SLIDER */
+    .hidden {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .fade{
+        animation: fade 1.5s;
+    }
+
+    @keyframes fade {
+        0%{opacity: 0.1}
+        100%{opacity: 1}
+    }
+      /* EXTENSIONS-SECTION */
+      .extension {
+          padding-bottom: 149px;
+        
+    }
+    
+    .extension-head {
+        margin: 0;
+        margin-bottom: 16px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 52px;
+    }
+    .extension-text {
+        margin: 0;
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 540px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        opacity: 0.5;
+    }
+    .extension-cards {
+        padding-left: 60px;
+        display: flex;
+        position: relative;
+    }
+    .extension-card{
+        width: 280px;
+        -webkit-box-shadow: 0px 10px 19px -3px rgba(34, 60, 80, 0.13);
+        -moz-box-shadow: 0px 10px 19px -3px rgba(34, 60, 80, 0.13);
+        box-shadow: 0px 10px 19px -3px rgba(34, 60, 80, 0.13);
+        border-radius:8px;
+    }
+
+    .extension-card:nth-child(2){
+        position: absolute;
+        top: 50px;
+        left: 390px;
+    }
+
+    .extension-card:nth-child(3){
+        position: absolute;
+        top: 100px;
+        left: 720px;
+    }
+
+    .extension-card-items {
+        padding: 24px;
+        padding-top: 49px;
+        text-align: center;
+    }
+
+    .extension-title {
+        margin: 0;
+        margin-bottom: 6px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .extension-img {
+        margin-bottom: 32px;
+    }
+
+    .extension-version {
+       display: block;
+       margin-bottom: 32px;
+       font-size: 15px;
+       line-height: 28px;
+       opacity: 0.5;
+    }
+  
+    .extension-btn{
+        margin: 0;
+        width: 232px;
+    }
    
         /* FOOTER-SECTION */
     .footer {
